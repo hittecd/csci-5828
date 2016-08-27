@@ -1,0 +1,120 @@
+software construction involves:
+	essential tasks - fashioning of complex conceptual structures that compose the abstract software entity
+	accidental tasks - representation of these abstract entities in programming languages and the mapping of these onto machine languages within space and time constraints
+
+software productivity has previously resulted from removal of constraints to accidental tasks
+	i.e. eliminating hardware constraints, improving programming languages, etc.
+this will no longer yield orders of magnitude of improvement.
+
+essential tasks must be addressed:
+	- exploiting mass market to avoid redundancy
+	- rapid prototyping to establish software requirements
+	- growing software organically
+	- identifying & developing the great conceptual designers of the rising generation (?)
+
+software development improvements will not keep pace with/replace Moore’s law
+
+the hard part of building software is the specification, design, and testing of the conceptual model
+
+—————————————————————————————————————————
+
+essential difficulties - difficulties inherent in the nature of software
+accidental difficulties - difficulties that today attend software production but are not inherent
+
+the inherent properties of modern software systems:
+	Complexity:
+		- every software entity is unique; if it is not, the two homophones are merged into one
+		- digital computers and software systems have multitude of states
+		- software becomes more complex as it scales; nonlinear
+		- complexity is the essence of software; abstracting away complexity in a software system abstracts away some or all of the essence of the system itself
+
+	Conformity* :
+		- software designed by different people introduces arbitrary complexity; personal conventions that are not intuitive to a broad population of users
+
+	Changeability:
+		- software’s inherent malleability involves a constant pressure for change in real time
+		- new users are invented for successful software entities
+		- software can outlive its physical systems and therefore must be adapted to new systems
+
+	Invisibility:
+		- software is difficult to model
+		
+—————————————————————————————————————————
+
+major software developments of the past attacked accidental difficulties in building software, but not the essential difficulties:
+	High-level Languages:
+		- improve reliability, simplicity, comprehensibility
+		- allows developers to focus on conceptual constructs (data types, operations, etc) over machine programming constructs (bits, registers, etc)
+		- language complexity increases towards a point of more burden on the programmer not less
+
+	Time-sharing:
+		- reduces/eliminates the costs of context switching between writing code and executing code
+	
+	Unified Programming Environments:
+		- increase reusability of code and broad development
+
+—————————————————————————————————————————
+
+potential silver bullets:
+	Ada / high level language advances:
+
+	Object Oriented Development:
+		- hierarchical types (classes) eliminate large amounts of syntactic material from the process of defining new types / operations
+		- while the accidental difficulties may be removed from the expression of the design, the complexity of the design itself is essential
+
+	Artificial Intelligence:
+		AI-1 - using computers to solve problems that previously required human intelligence
+			- AI-1 is bounded by the definition of the problem the AI is being implemented to solve; implementing AI-1 solutions in one area do not translate to improvements in other areas
+
+		AI-2 (Expert Systems) - emulating the heuristics (rules) that humans use to solve problems via computer
+			- developed in an application-independent way and then applied to many uses
+			- developing the underlying rule base regularizes much of the complexity of the application itself
+
+			- as heuristics are improved, their impact on development are multiplied
+			- definition of heuristics themselves are very difficult; automatic definition of heuristics even more so
+
+	“Automatic” Programming:
+		- powerful but limited to:
+			- problems that are readily characterized by few parameters
+			- known methods of solution
+			- explicit rules for selecting solution techniques
+
+	Graphical Programming:
+		- flow charts and other visualization methods do not encapsulate a software system in design; at best the explain it after it has been developed
+		- desktop resolution too low (irrelevant today)
+		- software is difficult to visualize
+
+	Program Verification:	
+		- while verification can eliminate cost of fixing bugs the upfront cost of verifying a program is usually higher than the cost of maintaining software in the presence of bugs
+		- proofs themselves can be faulty
+		- verification proves that a program meets its specification; it does not validate the specification itself
+
+	Environments and Tools:
+		- wikis, IDE’s, uniform environments, etc; the gains are marginal
+	
+	Workstations:
+		- marginal returns; won’t redefine the act of developing software
+
+—————————————————————————————————————————
+
+the following are promising attacks on the conceptual essence
+
+	Buy vs Build:
+		- the explosion of the software development industry has created a vast market place for software solutions; it is cheaper and more efficient to leverage the products of others than to develop solutions from the ground up in house
+		- the use of n copies of software effectively multiplies the productivity of its developers by n
+		- adapt the function (desired goal of the software) to the available forms (software that exists in the marketplace today)
+
+	Requirements Refinement and Rapid Prototyping:
+		- the hardest part of developing a software system is deciding what to build
+
+	Incremental Development - grow, don’t build, software:
+		- TDD / iterative design
+
+	Great Designers:	
+		- software development is a creative art as well as a science; masters must be developed not produced
+		- the differences between the great and the average approach an order of magnitude
+		- identify top designers as early as possible; the best are often not the most experienced
+		- assign a career mentor
+		- career development plan for up and coming designers
+		- get up and coming designers in contact with on another
+		
